@@ -7,3 +7,26 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.link a {
+  color: seashell;
+}
