@@ -1,4 +1,4 @@
-/* Universal */
+/* Global */
 
 body {
   font-family: Helvetica;
@@ -6,6 +6,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
 /* Header */
@@ -19,8 +20,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 5;
-  top: 0;
-  left: 0;
 }
 
 .logo {
@@ -48,7 +47,7 @@ header {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 62px;
+  top: 70px;
 }
 
 /* Mission */
@@ -76,8 +75,7 @@ header {
 
 #featured {
   width: 1000px;
-  position: relative;
-  top: 70px;
+  padding: 70px 0;
 }
 
 .row {
@@ -108,4 +106,41 @@ header {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 25px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#locations h2 {
+  margin: 10px 0;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.address {
+  background-color: black;
+  height: 270px;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 0;
+  opacity: 1;
+}
+
+.address p {
+  margin: 0;
+  padding-bottom: 45px;
+}
+
+.address h3 {
+  margin-bottom: 30px;
 }
